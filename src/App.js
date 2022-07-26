@@ -29,6 +29,7 @@ state={
   }
 }
 
+//peticion AXIOS a la API
 peticionGet=()=>{
 axios.get(url).then(response=>{
   this.setState({data: response.data});
